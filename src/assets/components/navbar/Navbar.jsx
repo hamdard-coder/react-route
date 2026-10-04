@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <header className="absolute top-0 left-0 z-50 w-full">
-        <nav className=" mx-auto flex max-w-7xl items-center justify-between rounded-3xl border border-white/20 bg-white/80 px-6 py-4 my-2 sm:mx-16 backdrop-blur-md">
+        <nav className=" mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/30 bg-black/20 px-6 py-4 my-2 sm:mx-16 backdrop-blur-md">
           <NavLink
             to="/"
             className="text-2xl font-bold text-black flex space-x-1 justify-center items-center w-full sm:flex sm:w-full sm:justify-start"
